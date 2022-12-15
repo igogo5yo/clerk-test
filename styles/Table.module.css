@@ -1,0 +1,41 @@
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-right: 1px solid var(--grey3);
+    border-bottom: 1px solid var(--grey3);
+}
+
+.thead {
+    background: var(--grey5);
+}
+
+.tbody td, .thead th {
+    border: 1px solid var(--grey3);
+    border-bottom: 0;
+    border-right: 0;
+    padding: 10px 16px;
+    text-align: left;
+}
+
+.thead th {
+    color: var(--superGrey);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.thead th:last-child {
+    width: 80px;
+}
+
+.tbody td.noData {
+    text-align: center;
+}
+
+.tbody td {
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+

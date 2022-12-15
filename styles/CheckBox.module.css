@@ -1,0 +1,14 @@
+.checkbox {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid var(--grey4);
+    background: var(--white);
+}
+
+.checked {
+    border: none;
+    background: var(--purple);
+}

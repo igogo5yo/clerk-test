@@ -1,0 +1,81 @@
+.nameCell {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.headerWithIcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.headerIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.actionCell {
+    text-align: center;
+}
+
+.nameWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.pending {
+    border: 1px solid var(--orange);
+    border-radius: 16px;
+    padding: 3px 10px;
+}
+
+.pending span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--orange);
+    margin-left: 6px;
+}
+
+.searchInputContainer {
+    position: relative;
+}
+
+.searchInputIcon {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+
+.searchInput {
+    padding: 4px 12px;
+    width: 256px;
+    height: 32px;
+    border: 1px solid var(--grey4);
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--superGrey);
+    outline: none;
+}
+
+.searchInput:hover,
+.searchInput:active {
+    border-color: var(--purpleLight);
+    box-shadow: 0 0 0 3px rgba(110, 0, 255, 0.1);
+}
+
